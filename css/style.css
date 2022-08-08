@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg {
+  background-image: url("../assets/bg.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+}
+
+.logo {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  width: 10%;
+}
+
+.list {
+  display: flex;
+  margin-left: 23rem;
+  margin-top: 2rem;
+  list-style-type: none;
+  color: #73c9eb;
+}
+
+.list-item {
+  margin-right: 3rem;
+}
+
+button {
+  padding: 5px;
+  background-color: #73c9eb;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+/* --------Hero------- */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  margin-left: 10rem;
+  margin-top: 7rem;
+  color: #fff;
+}
+
+.heo-heading {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.description {
+  color: #a3def5;
+  font-size: 1.3rem;
+}
+.hero-img {
+  width: 80%;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* -----Saas-part---- */
+
+.saas-part {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+
+.saas-img {
+  width: 35%;
+}
+
+.saas-decription {
+  margin-top: 3rem;
+}
+
+/* ---------Cards--------- */
+
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.cards {
+  display: flex;
+  margin: 4rem 7rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-color: #e5eaf4;
+  border-style: solid;
+  border-width: 2px solid #e5eaf4;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: auto 2.5rem;
+}
+
+.card-active {
+  background-color: #151580;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.card-img {
+  width: 25%;
+}
